@@ -1,0 +1,65 @@
+#testimonial{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.test_col {
+	width: 47.96%;
+	float: left;
+	margin-right: 20px;
+}
+.test_col:nth-child(2){
+    margin-right: 0;
+}
+.test_text{
+    font-size: 10px;
+    padding: 20px;
+    background: #f1f1f1;
+    margin-top: 36px;
+    position: relative;
+}
+.test_text h3{
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.test_text i{
+    color: #5bc5f4;
+    font-size: 13px;
+}
+.test_text h4,
+.test_text p{
+    color: #555555;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+.test_text p{
+    line-height: 24px;
+}
+.test_row{
+    padding-top: 30px;
+}
+.test_text::after {
+	position: absolute;
+	content: '';
+	left: 50%;
+	top: -18px;
+	width: 40px;
+	height: 40px;
+	background: #f1f1f1;
+	transform: translateX(-50%) rotate(45deg);
+	-webkit-transform: translateX(-50%) rotate(45deg);
+	-moz-transform: translateX(-50%) rotate(45deg);
+	-ms-transform: translateX(-50%) rotate(45deg);
+	-o-transform: translateX(-50%) rotate(45deg);
+    z-index: 1;
+}
+.d{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

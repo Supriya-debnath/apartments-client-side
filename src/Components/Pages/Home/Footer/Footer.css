@@ -1,0 +1,128 @@
+#footer{
+    color: white;
+    margin-top: 50px;
+    background-color: #353535;
+}
+
+.img-part{
+    display: flex;
+   
+}
+.img-part li{
+    list-style: none;
+    margin-left: 10px;
+    align-items: center;
+}
+.part{
+    margin: 10px;
+}
+
+.footer_left p{
+    color: #f1f1f1;
+    font-size: 13px;
+    font-weight: 400;
+    font-family:'Open Sans', sans-serif;
+    line-height: 24px;
+    padding-top: 20px;
+}
+
+.footer_left p span{
+    display: block;
+    padding-top: 22px;
+}
+.footer_left2 h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 37px;
+}
+.footer_left2 a{
+    color: #f1f1f1;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 6px;
+}
+.footer_left2 a i{
+    width: 35px;
+    height: 35px;
+    background: #5bc5f4;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+.footer_left3{
+    width: 20%;
+    float:left;
+    padding-right: 20px;
+}
+.footer_left3 ul{
+    width: 50%;
+    float: left;
+}
+.footer_left3 h4{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 37px; 
+}
+.footer_left3 ul li a{
+    color: #f1f1f1;
+    font-size: 13px;
+    font-weight: 400;
+    font-family:'Open Sans', sans-serif;
+    line-height: 24px;
+    padding-top: 5px;
+}
+.footer_left3 ul li a:hover{
+    color: yellow;
+} 
+.footer_last{ 
+    width: 30%;
+    float: left;
+}
+
+.footer_last ul li {
+	width: 27.44%;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.footer_last ul li img{
+    width: 100px;
+    height: 40px;
+    float: left;
+    /* max-width: 100%; */
+}
+.footer_last ul li:nth-child(3),
+.footer_last ul li:nth-child(6){
+    margin-right: 0;
+}
+.footer_last h4{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 37px; 
+}
+.footer_bottom{
+    background: #555;
+    padding: 15px 0;
+    text-align: center;
+}
+.footer_bottom p{
+    color: #fff;
+}

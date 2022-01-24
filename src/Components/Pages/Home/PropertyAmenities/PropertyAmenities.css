@@ -1,0 +1,31 @@
+.common-head{
+    padding-top: 40px;
+}
+.pro-img{
+    position: relative;
+}
+
+.icons{
+   padding-top: 30px;
+}
+
+.icons i{
+    width: 100px;
+    height: 85px;
+    align-items: center;
+    color: rgb(65, 131, 65);
+    text-align: center;
+    line-height: 85px;
+    border: 1px solid gray;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    left: 0;
+    top: 6px;
+}
+.icons p{
+    color: gray;
+    font-size: 14px;
+}

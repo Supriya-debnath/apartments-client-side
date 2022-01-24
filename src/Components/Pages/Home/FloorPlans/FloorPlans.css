@@ -1,0 +1,31 @@
+.floor{
+    display: flex;
+    padding-top: 40px;
+    
+}
+.floor1{
+    padding-left: 20px;
+    padding-top: 34px;
+}
+.floor_title{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 34px;
+}
+.floor_text{
+        color: #555;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'open sans', sans-serif;
+        line-height: 24px;
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 34px;
+}
+.info{
+    font-size: 17px;
+}
+.btn{
+    text-align: left;
+}
+

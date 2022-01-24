@@ -1,0 +1,47 @@
+.Sbanner-img {
+    background-image: url(https://1.bp.blogspot.com/-XbMcnfDY1U4/VOsjRS-SuTI/AAAAAAAAshA/0n_OUiYxE8Q/s1920/modern-duplex-house.jpg);
+    background-size: 100% 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sbanner-img::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .7;
+    z-index: 0;
+}
+.Sbanner-img{
+    position: relative;
+}
+.Sbanner-img > * {
+    z-index: 10;
+    position: relative;
+}
+.Sbanner-text {
+    text-align: center;
+}
+
+.Sbanner-text h1 {
+    padding: 5px;
+    color: #f5eeee;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.Sbanner-text p {
+    color: #ffff;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.video i{
+    color: burlywood;
+}

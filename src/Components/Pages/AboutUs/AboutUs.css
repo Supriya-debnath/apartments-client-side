@@ -1,0 +1,89 @@
+.product-header{
+    color: black;
+}
+.product-h{
+    color: cadetblue;
+}
+.paragraph{
+    color: grey;
+}
+
+.about-us-sec {
+    margin-bottom: 80px;
+  }
+  .about-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-details {
+    padding: 20px 250px;
+    text-align: center;
+  }
+  
+  .grooming-section {
+    color: white;
+    width: 100%;
+    background-color: #5624d0;
+  }
+  .btn{
+      color: white;
+  }
+  .details {
+    padding: 20px 0;
+    font-weight: 900;
+  }
+  .cart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    justify-items: center;
+    margin-bottom: 25px;
+  }
+  .text-container {
+    text-align: center;
+    padding: 0 350px;
+    margin: 30px 0;
+  }
+  .cart-information {
+    color: white;
+    background-color: #a435f0;
+  }
+  .cart-information2 {
+    color: white;
+    background-color: hotpink;
+  }
+  .cart-information3 {
+    color: white;
+    background-color: #2d907f;
+  }
+  .text-btn{
+      border: 0px solid gray;
+      background-color: rgb(143, 196, 189);
+      padding: 5px;
+      color: black;
+      border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      -o-border-radius: 30px;
+}
+  /* #about-btn {
+    border: 2px solid #5624d0;
+    color: #5624d0;
+  } */
+  @media only screen and (max-width: 48em) {
+    .text-container {
+      padding: 0px;
+      margin: 30px 0;
+    }
+    .cart {
+      grid-template-columns: 1fr;
+      grid-row-gap: 10px;
+      justify-items: center;
+    }
+    .about-details {
+      padding: 20px 0px;
+      text-align: center;
+    }
+  }
